@@ -1,0 +1,699 @@
+*{ /* reseteo */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* evitamos que las box cambien de tamaño */
+}
+
+/* HEADERS DE TODAS LAS PAGINAS */
+
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    padding-right: 100px;
+}
+
+.header__menu__list li{
+    display: inline;
+    font-size: 20px;
+    margin-left: 200px;
+    font-family: nos;
+    color: rgb(15, 15, 15);  
+}
+
+.logo{
+    height: 60px;
+    width: 120px;
+    display: inline-block;
+    margin-left: 15px;
+}
+ 
+
+/* INDEX */
+
+
+
+.kurt__burgers{
+    color: black ;
+    text-shadow: black;
+    font-size: 100px;
+    font-family: nos;
+    
+    /* -wbkit-text-stroke: 1px black;  doy borde al texto  */
+}
+
+.top__kurt{
+    background-color: #ff9ebc;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quienes__somos{
+    background-color: #ffe28c;
+    height: 600px;
+}
+
+.quienes__somos__h3{
+    font-family: nos;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.quienes__somos__historia{
+    font-family: sans-serif;
+    font-size: 40px;
+    align-items: center;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+
+.burger__del__mes{
+    background-color: #a7ebe2;
+    height: 600px;
+    font-family: nos;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-area: 
+    "burger__del__mes" "burger__del__mes__info";
+    grid-area: burger__del__mes;
+}
+
+
+
+.burger__del__mes__titulo{
+    font-size: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buger__del__mes__h4{
+    display: flex;
+    justify-content: center;
+}
+
+.foto__burger__del__mes{
+    height: 400px;
+    width: 500px;
+    margin-top: 45px;
+    margin-left: 220px
+}
+ 
+
+.flex__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger__del__mes__info{
+    grid-area: burger__del__mes__info;
+    color: rgb(43, 43, 43);
+    font-size: 30px;
+}
+  
+
+h4{
+    font-family: nos;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.promociones{
+    background-color: #AEADF0;
+}
+
+.promociones__titulo{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.fotos__promociones{
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nuestras__sucursales__titulo{
+    padding-top: 10px;
+}
+
+.nuestras__sucursales{
+    background-color: #D2AB99;
+    height: 450px;
+}
+
+.mapa{
+    margin-top: 25px;
+}
+
+
+/* INDEX MOVILE VIEW  */
+@media screen and (max-width: 375px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    .header{
+        padding-right: 35px;
+        height: 100px;
+        position: absolute;
+    }
+
+    .logo{ /* oculto foto del sitio */
+        display: none;
+    }
+
+
+    .header__menu__list li{
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-left: 40px;
+    }
+
+
+    .kurt__burgers{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    
+    .quienes__somos__h3{
+        font-size: 30px;
+    }
+    
+    .quienes__somos__historia{
+        font-size: 23px;
+        margin-top: 60px;
+        margin-right: 30px;
+        margin-left: 50px;
+    }
+        
+    .burger__del__mes {
+        background-color: #a7ebe2;
+        grid-template-columns: 100%;
+        grid-template-rows: 400px 200px;
+        grid-area:
+            "burger__del__mes" 
+            "burger__del__mes__info";
+    }
+
+    .burger__del__mes__titulo {
+        font-size: 30px;
+    }
+
+
+    .foto__burger__del__mes {
+        height: 300px;
+        width: 400px;
+        margin-top: 45px;
+        margin-left: 1px;
+    }
+
+
+    .burger__del__mes__info {
+        grid-area: burger__del__mes__info;
+        color: rgb(43, 43, 43);
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    h4 {
+        font-size: 18px;
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-top: 25px;
+    }
+
+
+    .promociones h4{
+        padding-top: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .foto1{
+        display: none;
+    }
+
+    .foto2{
+        display: none;
+    }
+
+    .nuestras__sucursales__titulo{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .nuestras__sucursales{
+        background-color: #D2AB99;
+        height: 450px;
+    }
+    
+    .mapa{
+        margin-top: 25px;
+    }
+
+    }
+
+/* PAGINA CONTACTO */
+
+.main__contacto{
+    background-color:gray;
+    height: 750px;
+}
+
+.contactanos{
+    font-family: nos;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.nombre__y__apellido{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.correo__electronico{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CONTACTO RESPONSIVE DESIGN */
+
+@media screen and (max-width: 375px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .contactanos{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .grid__contacto{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    }
+
+    .correo__electronico{
+        margin-top: 15px;
+    }
+
+    label{
+        display: none;
+    }
+
+    textarea {
+       width: 300px;
+       height: 400px;
+       margin-top: 30px;
+    }
+
+    ::placeholder{
+        text-align: center;
+        padding-top: 160px;
+        font-size: 13px
+    }
+       
+}
+    
+      
+
+/* PAGINA RECETAS */
+
+
+
+.procedimiento__y__tips{
+    background-color: #D5C6E0;
+    padding: 40px;
+}
+
+.titulo__procedimiento__y__tips{
+    font-family: nos;
+    padding-top: 60px;
+}
+
+.lista__procedimiento__y__tips li{
+    padding-left: 15px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    line-height: 150%;
+}
+
+.smashear{
+    padding-top: 30px;
+}
+
+
+.consejos__extra{
+    background-color: #A2D6F9;
+    height: 600px;
+}
+
+.titulo__consejos{
+    font-family: nos;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.lista__consejos li{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    line-height: 150%;
+    list-style: inside;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.fondo__video__principal{
+    background-color: #DB7F67;
+    height: 500px;
+}
+
+
+.titulo__video__tutorial{
+    text-align: center;
+    font-family: nos;
+    padding-top: 25px;
+}
+
+.texto__video__tutorial{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.video__tutorial{
+    text-align: center;
+}
+
+.video__tutorial{
+    margin-top: 50px;
+    margin-left: 670px;
+}
+
+/* RECETAS RESPONSIVE DESIGN */
+
+@media screen and (max-width: 375px){ 
+    .titulo__procedimiento__y__tips{
+        padding-top: 80px;
+    }
+
+    body{
+        background-color: #DB7F67;
+    }
+
+    main{
+        position: static;
+    }
+
+    .consejos__extra{
+        height: 700px;
+    }
+
+    .titulo__video__tutorial{
+        font-size: 25px;
+    }
+
+    .texto__video__tutorial{
+        font-size: 18px;
+    }
+
+    .video__tutorial{
+        margin-left: 10px;
+        width: 355px;
+        padding-bottom: 50px;
+    }
+
+}
+
+/* MENU */
+
+.main__menu{
+    background-color: #F4B393;
+    height: 790px;
+}
+
+.titulo__menu{
+    font-family: nos;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.cuadro__menu{
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 50px;
+
+    background-color: #F4B393;
+    position: static;
+}
+
+.cuadro__menu table{
+    border-collapse: collapse;
+    width: 1300px;
+    height: 600px;
+    background-color: #d69c7f;
+    font-family: nos;
+    
+}
+
+/* MENU RESPONSIVE DESIGN */
+
+@media screen and (max-width: 375px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .titulo__menu{
+        margin-top: 100px;
+    }
+
+    .cuadro__menu{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .cuadro__menu table{
+        width: 360px;
+        height: 600px;
+        font-size: 15px;
+    }  
+
+}
+
+/* POLITICAS DE PRIVACIDAD */
+
+.main__politicas{
+    background-color: #D8CBC7;
+    height: 850px;
+}
+
+.parrafos{
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.titulo__principal{
+    font-family: nos;
+    margin-left: 20px;
+    padding-top: 100px;
+}
+
+h3{
+    font-family: nos;
+}
+
+.primer__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.segundo__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tercer__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cuarto__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.quinto__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sexto__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 375px){ 
+    .main__politicas{
+        background-color: #D8CBC7;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .parrafos{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .titulo__principal{
+        padding-top: 120px;
+        text-align: center;
+    }
+}
+
+
+/* FUENTE Y DECORACION LINKS */
+
+@font-face {                     
+    font-family: nos;
+    src: url(../fuentes/Aachen\ BT\ Bold\ font.ttf);
+}
+
+@font-face {
+    font-family: 'kdam', sans-serif;
+    src: url(../fuentes/KdamThmorPro-Regular.ttf);
+}
+
+a:visited{
+    color: rgb(41, 41, 41); /* con este codigo logro que los links visitados se vean negros */
+}
+
+a:link{
+    color: #111;
+}
+
+
+a{                                      /* saco el subrayado del nav */
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+
+footer{
+    position: absolute;
+    bottom: 100;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: yellow;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a{
+  color:yellow;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+
