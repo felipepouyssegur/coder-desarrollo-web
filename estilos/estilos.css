@@ -49,10 +49,13 @@
     transition: 0.4s ease-out;
 }
 
+
 .link:hover.link::after{
     width: 100%;
 }
  
+
+
 
 /* INDEX */
 
