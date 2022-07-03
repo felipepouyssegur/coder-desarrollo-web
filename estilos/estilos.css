@@ -15,6 +15,7 @@
     justify-content: center;
     position: fixed;
     padding-right: 100px;
+    box-shadow: 0 7px 4px 0 rgba(0,0,0,.2);
 }
 
 .header__menu__list li{
@@ -111,6 +112,14 @@
     align-items: center;
 }
 
+
+.grid__quienes__somos{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "quienes__somos__h3";
+}
 .quienes__somos{
     background-color: #ffe28c;
     height: 600px;
@@ -121,14 +130,15 @@
     font-size: 50px;
     text-align: center;
     padding-top: 40px;
+    grid-area: quienes__somos__h3;
 }
 
 .quienes__somos__historia{
     font-family: sans-serif;
     font-size: 40px;
-    align-items: center;
-    margin-top: 140px;
-    margin-left: 100px;
+    text-align: center;
+    padding-top: 100px;
+    grid-area: quienes__somos__historia;
 }
 
 .burger__del__mes{
