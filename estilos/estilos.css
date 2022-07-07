@@ -349,6 +349,7 @@ h4{
     font-size: 40px;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 24px;
 }
 
 
@@ -367,6 +368,15 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+form{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.text-area{
+    margin-top: 20px;
 }
 
 /* ANIMACION ENVIAR */
@@ -505,7 +515,7 @@ textarea {
 
 .consejos__extra{
     background-color: #A2D6F9;
-    height: 600px;
+    height: 700px;
 }
 
 .titulo__consejos{
@@ -524,6 +534,8 @@ textarea {
     list-style: inside;
     padding-left: 15px;
     padding-top: 20px;
+    background-color: #A2D6F9;
+    border-style: none;
 }
 
 .fondo__video__principal{
@@ -548,12 +560,33 @@ textarea {
     text-align: center;
 }
 
-.video__tutorial{
+/* .video__tutorial{
     margin-top: 50px;
     margin-left: 670px;
 }
-
+ */
 /* RECETAS RESPONSIVE DESIGN */
+
+@media screen and (max-width: 600px){
+   .video__tutorial{
+    width: 400px;
+    height: 250px;
+   }
+}
+
+@media screen and (max-width: 415px){ 
+    .fondo__video__principal{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 487px){ 
+    .consejos__extra{
+        height: 900px;
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width: 375px){ 
     .titulo__procedimiento__y__tips{
@@ -572,20 +605,9 @@ textarea {
         height: 700px;
     }
 
-    .titulo__video__tutorial{
-        font-size: 25px;
+    .consejos__extra{
+        height: 1000px;
     }
-
-    .texto__video__tutorial{
-        font-size: 18px;
-    }
-
-    .video__tutorial{
-        margin-left: 10px;
-        width: 355px;
-        padding-bottom: 50px;
-    }
-
 }
 
 
@@ -620,9 +642,13 @@ table thead{
 
 /* POLITICAS DE PRIVACIDAD */
 
+.body__politicas{
+    background-color: #D8CBC7;
+}
+
 .main__politicas{
     background-color: #D8CBC7;
-    height: 850px;
+    height: 1100px;
 }
 
 .parrafos{
