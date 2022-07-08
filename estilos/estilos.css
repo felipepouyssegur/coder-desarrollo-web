@@ -5,7 +5,7 @@
 }
 
 
-/* HEADER BOOTSTRAP */
+/* NAVBAR */
 
 nav {
     font-family: nos;
@@ -23,7 +23,12 @@ nav {
     margin-left: 25px;
 }
 
+nav{  
+    box-shadow: 0 7px 4px 0 rgba(0,0,0,.2);
+}
 
+
+/* RESPONSIVE NAVBAR*/
 
 @media (max-width: 1156px) {
     .navbar-nav > li{
@@ -43,9 +48,6 @@ nav {
     }
 }
 
-nav{ 
-    box-shadow: 0 7px 4px 0 rgba(0,0,0,.2);
-}
 
 
 
@@ -59,12 +61,6 @@ nav{
     justify-content: center;
     align-items: center;
 }
-
-    /* -wbkit-text-stroke: 1px black;  doy borde al texto  */
-
-  .carousel__foto {
-    margin-top: 270px;
-}  
 
 .quienes__somos{
     background-color: #ffe28c;
@@ -168,7 +164,7 @@ h4{
 }
 
 
-/* INDEX MOVILE VIEW  */
+/* INDEX RESPONSIVE DESIGN  */
 
 @media screen and (max-width: 1530px){
     .burger__del__mes{
@@ -379,12 +375,13 @@ form{
     margin-top: 20px;
 }
 
-/* ANIMACION ENVIAR */
+/* ANIMACION BOTON ENVIAR */
 
 .boton{
     display: flex;
     justify-content: center;
 }
+
 .glow-on-hover {
     width: 220px;
     height: 50px;
