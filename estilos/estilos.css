@@ -49,17 +49,33 @@ nav{
 }
 
 
+/* CAROUSEL INDEX */
+
+.carousel-item{
+    height: 600px;
+}
+
+.carousel-item img{
+    height: 600px;
+    width: 80%;
+}
+
+@media (max-width: 600px) { 
+    .top__kurt{
+        height: 400px;
+    }
+    .carousel-item img{
+        height: 40%;
+        margin-top: 10rem;
+    }
+}
 
 
 /* INDEX */
 
-
 .top__kurt{
     background-color: #ff9ebc;
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 600px;
 }
 
 .quienes__somos{
@@ -220,6 +236,7 @@ h4{
         margin-right: auto;
     }
 }
+
 
 @media screen and (max-width: 598px){
     .quienes__somos h3{
