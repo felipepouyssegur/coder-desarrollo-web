@@ -28,7 +28,7 @@ nav{
 }
 
 
-/* RESPONSIVE NAVBAR*/
+/* RESPONSIVE DESIGN NAVBAR*/
 
 @media (max-width: 1156px) {
     .navbar-nav > li{
@@ -60,6 +60,52 @@ nav{
     width: 80%;
 }
 
+.carousel__foto1{
+    padding-bottom: 60px;
+}
+
+/* BOTON PEDI YA ANIMACION */
+
+.boton__pedi__ya{
+    margin-bottom: 20px;
+    background-color: #000;
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both infinite;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    border-radius: 45%;
+    font-family: nos;
+  }
+  
+  @keyframes shake {
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-3px, 0, 0);
+    }
+    40%,
+    60% {
+      transform: translate3d(3px, 0, 0);
+    }
+  }
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(3px) }
+    50% { transform: translateX(-3px) }
+    75% { transform: translateX(3px) }
+    100% { transform: translateX(0) }
+   }
+   
+
 @media (max-width: 600px) { 
     .top__kurt{
         height: 400px;
@@ -67,6 +113,9 @@ nav{
     .carousel-item img{
         height: 40%;
         margin-top: 10rem;
+    }
+    .carousel__foto1{
+        padding-bottom: 0px;
     }
 }
 
