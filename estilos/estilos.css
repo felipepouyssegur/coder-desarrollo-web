@@ -64,6 +64,20 @@ nav{
     padding-bottom: 60px;
 }
 
+
+@media (max-width: 600px) { 
+    .top__kurt{
+        height: 400px;
+    }
+    .carousel-item img{
+        height: 40%;
+        margin-top: 10rem;
+    }
+    .carousel__foto1{
+        padding-bottom: 0px;
+    }
+}
+
 /* BOTON PEDI YA ANIMACION */
 
 .boton__pedi__ya{
@@ -106,18 +120,6 @@ nav{
    }
    
 
-@media (max-width: 600px) { 
-    .top__kurt{
-        height: 400px;
-    }
-    .carousel-item img{
-        height: 40%;
-        margin-top: 10rem;
-    }
-    .carousel__foto1{
-        padding-bottom: 0px;
-    }
-}
 
 
 /* INDEX */
@@ -213,6 +215,11 @@ h4{
     padding: 60px;
     display: flex;
     justify-content: space-around;
+}
+
+.fotos__promociones img:hover{
+    transform: scale(1.5);
+    transition-duration: 1s;
 }
 
 .nuestras__sucursales{
