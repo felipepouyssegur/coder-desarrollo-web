@@ -10,6 +10,7 @@
 nav {
     font-family: nos;
     font-size: 18px;
+    box-shadow: 0 7px 4px 0 rgba(0,0,0,.2);
 }
 
 .navbar-nav > li{
@@ -23,9 +24,7 @@ nav {
     margin-left: 25px;
 }
 
-nav{  
-    box-shadow: 0 7px 4px 0 rgba(0,0,0,.2);
-}
+
 
 
 /* RESPONSIVE DESIGN NAVBAR*/
@@ -822,7 +821,7 @@ footer{
     right: 0;
     background: #111;
     height: auto;
-    width: 100vw;
+    width: 100%;
 
     padding-top: 40px;
     color: #fff;
@@ -857,7 +856,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin-left: 2px;
+    width: 100%;
 }
 
 .socials li{
@@ -868,12 +868,16 @@ footer{
     text-decoration: none;
     color: #fff;
     padding: 5px;
+}
 
+.socials a:hover{
+    color: rgb(255, 251, 0);
+    transition-duration: 1s;
 }
 
 .footer-bottom{
     background: #000;
-    width: 100vw;
+    width: 100%;
     padding: 20px;
     padding-bottom: 40px;
     text-align: center;
