@@ -1,6 +1,5 @@
 <!DOCTYPE html> <!-- Declara al sitio como HTML -->
 <html lang="es">
-<!-- Idioma en que va a funcionar -->
 
 <head>
     <meta charset="UTF-8"> <!-- Sirve para caracteres especiales -->
@@ -9,14 +8,17 @@
     <title>KURT</title> <!-- Titulo de la pagina. Aparece en la pestaña del navegador -->
     <link rel="shortcut icon" href="multimedia/smile-removebg-preview.png" type="image/x-icon">
 
-    
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <meta name="keywords" content="hamburguesas, burgers, smash burgers, hamburguesas argentina, hamburguesas ricas, kurt burgers, kurt">        <!-- keywords SEO | AGREGAR WORD -->
+    <meta name="description" content="KURT BURGERS | Las mejores hamburguesas del país, pedilas YA. Encontranos como @kurtburgers en todas las redes. Trabajamos con Pedidos YA, Rappi y Whatsapp."> <!-- descripcion SEO -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- LINKEO ANIMACIONES -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> <!-- LINKEO BOOTSTRAP -->
+    <link rel="stylesheet" href="estilos/estilos.css"> <!-- LINKEO CSS -->
 </head>
 
-<body data-aos="fade-down">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<body data-aos="fade-down" id="top"> <!-- ANIMACION EN "REFRESH" EN TODOS LAS PAGINAS -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <div class="row">
         <img src="multimedia/smile kurt.png" alt="logo del navegador" class="foto__logo img-responsive d-inline-block align-text-top img-fluid">
@@ -27,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto items__navbar">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link" aria-current="page" href="#top">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="paginas/menu.html">MENU</a>
@@ -43,6 +45,7 @@
     </nav>
 
     <main>
+      <!-- CAROUSEL -->
         <section class="top__kurt"> 
           <div class="row">
           <div id="carouselExampleCaptions" class="carousel slide carousel col-xl-6  mx-auto" data-bs-ride="false">
@@ -57,6 +60,7 @@
                   <a href="https://www.rappi.com.ar/"><button type="button" class="btn btn-dark boton__pedi__ya horizontal-shaking">¡PEDI YA!</button></a>
                 </div>
               </div>
+              <!-- SEGUNDA FOTO CAROUSEL -->
               <div class="carousel-item carousel-banner">
                 <img src="multimedia/cute and nasty burgers 2.png" class="d-block w-100" alt="foto nasty burgers">
                 <div class="carousel-caption d-none d-md-block">
@@ -65,6 +69,7 @@
                 </div>
               </div>
             </div>
+            <!-- BOTONES CAROUSEL -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -77,17 +82,19 @@
         </div>
             </section>
 
-        <section class="quienes__somos">
-            <h3>¿QUIENÉS SOMOS?</h3>
-            <article>
-                <p> Mi nombre es Felipe Pouysségur, y soy el dueño de KURT. Desde que tengo uso de razón estoy interesado por la cocina, y
-                    en cuarentena me interesé por el mundo de la hamburguesa. Comencé cocinando en mi casa y para mis amigos, y a la gente
-                    le encantaba, por lo que luego de 1 año de cocinar, decidí dejar mi carrera y dedicarme a tiempo completo a este
-                    proyecto.
-                </p>
-            </article>
+
+
+            
+        <!-- DESCARGA APLICACIONES -->
+        <section class="descarga__app">
+          <img src="multimedia/banner 2.jpg" alt="descarga nuestra aplicacion" class="descarga__app__imagen">
+          <div class="aplicaciones">
+           <a href="https://www.apple.com/la/app-store/"><img src="multimedia/descargar-en-apple-store.png" alt="descargar en app store" class="app__store"></a>
+           <a href="https://play.google.com/store/games?hl=es_AR&gl=US"><img src="multimedia/descargar-en-google-play.png" alt="descargar google play" class="google__play"></a>
+          </div>
         </section>
 
+        <!-- BURGER DEL MES -->
         <section class="burger__del__mes">
             <div>
             <h3>BURGER DEL MES</h3>
@@ -100,7 +107,7 @@
             </div>
         </section>
 
-
+        <!-- PROMOCIONES -->
         <section class="promociones">
             <h4>PROMOCIONES IMPERDIBLES</h4>
             <div class="fotos__promociones">
@@ -113,6 +120,7 @@
             </div>
         </section>
 
+        <!-- SUCURSALES -->
         <section class="nuestras__sucursales">
             <h4>NUESTRAS SUCURSALES</h4>
             <iframe 
@@ -123,7 +131,7 @@
         </section>
     </main>
 
-
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <h3>KURT BURGERS</h3>
@@ -139,9 +147,12 @@
         </div>
     </footer>
 
+ 
+    <!-- LINKEO BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
+    <!-- LINKEO ANIMACIONES (ANIMATE ON SCROLL)-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>

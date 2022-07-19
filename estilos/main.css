@@ -113,6 +113,93 @@ form {
     top: 0;
     border-radius: 10px; }
 
+/* MAP CON BUCLE */
+.btn-mail {
+  color: #5B5B5B; }
+
+.btn-facebook {
+  color: #2241FF; }
+
+.btn-whatsapp {
+  color: #00731E; }
+
+.btn-instagram {
+  color: #FF67C6; }
+
+.btn-snapchat {
+  color: #ECFF00; }
+
+/* MAP GET */
+.correo__electronico {
+  color: black;
+  text-align: center; }
+
+/* EXTEND */
+.button-basic, .button-report, .button-submit {
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  height: 45px;
+  width: 125px;
+  background-color: #5B5B5B;
+  z-index: 2000;
+  cursor: pointer; }
+
+.button-report {
+  background-color: red; }
+
+.button-submit {
+  background-color: green;
+  color: white; }
+
+/* MIXIN */
+.circulo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #222;
+  position: absolute;
+  z-index: 1000;
+  margin-top: 25px;
+  margin-left: 10px; }
+  .circulo img {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 25px; }
+
+.circulo2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #222;
+  position: absolute;
+  z-index: 1000;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-left: 125px; }
+  .circulo2 img {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 25px; }
+
+.circulo3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #222;
+  position: absolute;
+  z-index: 1000;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-left: 240px; }
+  .circulo3 img {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 25px; }
+
 /* FOOTER */
 footer {
   position: absolute;
