@@ -135,6 +135,9 @@ form {
   text-align: center; }
 
 /* EXTEND */
+.botones__desafio {
+  background-color: gray; }
+
 .button-basic, .button-report, .button-submit {
   border: none;
   text-align: center;
