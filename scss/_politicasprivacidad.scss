@@ -1,0 +1,71 @@
+.body__politicas{
+    background-color: #D8CBC7;
+}
+
+.main__politicas{
+    background-color: #D8CBC7;
+    height: 100%;
+    margin-left: 20px;
+    h1{
+        font-family: nos;
+        padding-top: 100px; 
+        margin-top: -80px;
+    }
+    p{
+        font-family: sans-serif;
+    }
+}
+
+h3{
+    font-family: nos;
+}
+
+.primer__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.segundo__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tercer__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cuarto__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.quinto__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sexto__parrafo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* REPONSIVE POLITICAS */
+
+@media screen and (max-width: 375px){ 
+    .main__politicas{
+        background-color: #D8CBC7;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .parrafos{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .titulo__principal{
+        padding-top: 120px;
+        text-align: center;
+    }
+}

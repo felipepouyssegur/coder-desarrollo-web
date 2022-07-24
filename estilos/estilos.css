@@ -188,7 +188,7 @@ nav {
 
 @media screen and (max-width: 900px){  
     .descarga__app{
-        background-image: url(../multimedia/banner\ 2\ movile.jpg);
+        background-image: url(../multimedia/banner2movile.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size:contain;
@@ -230,6 +230,7 @@ nav {
     }
 }
 
+/* BURGER DEL MES */
 
 .burger__del__mes{
     background-color: #a7ebe2;
@@ -709,11 +710,8 @@ form{
     text-align: center;
 }
 
-/* .video__tutorial{
-    margin-top: 50px;
-    margin-left: 670px;
-}
- */
+
+
 /* RECETAS RESPONSIVE DESIGN */
 
 @media screen and (max-width: 600px){

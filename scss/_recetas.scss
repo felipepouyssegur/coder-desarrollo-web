@@ -1,0 +1,96 @@
+.procedimiento__y__tips{
+    background-color: #D5C6E0;
+    padding: 40px;
+    h1{
+        font-family: nos;
+        padding-top: 60px;  
+    }
+    li{
+        padding-left: 15px;
+        padding-top: 20px;
+        font-family: sans-serif;
+        line-height: 150%;
+    }
+    p{
+        padding-top: 30px;
+    }
+}
+
+.consejos__extra{
+    background-color: #A2D6F9;
+    height: 700px;
+    h2{
+        font-family: nos;
+        text-align: right;
+        padding-right: 30px;
+        padding-top: 20px;
+    }
+    ul li{
+        text-align: right;
+        margin-right: 30px;
+        margin-top: 15px;
+        font-family: sans-serif;
+        line-height: 150%;
+        list-style: inside;
+        padding-left: 15px;
+        padding-top: 20px;
+        background-color: #A2D6F9;
+        border-style: none;
+    }
+}
+
+
+.fondo__video__principal{
+    background-color: #DB7F67;
+    height: 500px;
+    h4{
+        text-align: center;
+        font-family: nos;
+        padding-top: 25px;
+    }
+    p{
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 25px;
+    }
+    iframe{
+        text-align: center;
+    }
+}
+
+/* RESPONSIVE RECETAS */
+
+@media screen and (max-width: 600px) {
+	.video__tutorial {
+		width: 400px;
+		height: 250px;
+	}
+}
+@media screen and (max-width: 415px) {
+	.fondo__video__principal {
+		display: none;
+	}
+}
+@media screen and (max-width: 487px) {
+	.consejos__extra {
+		height: 900px;
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.titulo__procedimiento__y__tips {
+		padding-top: 80px;
+	}
+	body {
+		background-color: #DB7F67;
+	}
+	main {
+		position: static;
+	}
+	.consejos__extra {
+		height: 700px;
+		height: 1000px;
+	}
+}
+
+

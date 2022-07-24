@@ -1,4 +1,93 @@
-@import "contacto";
+*{                          /* reseteo */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* evitamos que las box cambien de tamaño */
+}
 
+html{
+    scroll-behavior: smooth;  
+}
+
+/* IMPORTS TODAS LAS PAGINAS */
+
+@import "index";
+@import "recetas";
+@import "menu";
+@import "contacto";
+@import "politicasprivacidad";
+
+/* FOOTER */
+
+footer {
+	position: absolute;
+	bottom: 100;
+	left: 0;
+	right: 0;
+	background: #111;
+	height: auto;
+	width: 100%;
+	padding-top: 40px;
+	color: #fff;
+}
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	h3 {
+		font-size: 2.1rem;
+		font-weight: 500;
+		text-transform: capitalize;
+		line-height: 3rem;
+		color: yellow;
+	}
+	p {
+		max-width: 500px;
+		margin: 10px auto;
+		line-height: 28px;
+		font-size: 14px;
+		color: #cacdd2;
+	}
+}
+.socials {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 2px;
+	width: 100%;
+	li {
+		margin: 0 10px;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+		padding: 5px;
+		&:hover {
+			color: rgb(255, 251, 0);
+			transition-duration: 1s;
+		}
+	}
+}
+.footer-bottom {
+	background: #000;
+	width: 100%;
+	padding: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+	p {
+		display: flex;
+		justify-content: flex-start;
+		font-size: 14px;
+		word-spacing: 2px;
+		text-transform: capitalize;
+		a {
+			color: yellow;
+			font-size: 16px;
+			text-decoration: none;
+		}
+	}
+}
 
 
