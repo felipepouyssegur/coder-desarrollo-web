@@ -14,7 +14,8 @@ html {
 nav {
   font-family: nos;
   font-size: 18px;
-  box-shadow: 0 7px 4px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 7px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1000000000; }
   nav .li {
     padding-left: 70px;
     padding-right: 70px; }
@@ -43,7 +44,7 @@ nav {
   overflow: hidden;
   position: absolute;
   width: 100%;
-  z-index: 100000;
+  z-index: 10;
   background-color: black;
   margin-top: 25px;
   /* transform: rotate(1deg); */ }
