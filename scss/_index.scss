@@ -1,40 +1,4 @@
-/* NAVBAR */
 
-nav {
-	font-family: nos;
-	font-size: 18px;
-	box-shadow: 0 7px 4px 0 rgba(0,0,0,.2);
-	z-index: 1000000000;
-    .li{
-        padding-left: 70px;
-		padding-right: 70px;
-    img{
-        width: 150px;
-        height: 60px;
-        margin-left: 25px;
-    }    
-    }
-}
-
-/* RESPONSIVE NAVBAR */
-
-@media (max-width: 1156px) {
-	.navbar-nav {
-		>li {
-			padding-left: 40px;
-			padding-right: 40px;
-		}
-	}
-}
-@media (max-width: 284px) {
-	.foto__logo {
-		width: 150px;
-		height: 60px;
-		margin-left: 1px;
-		width: 120px;
-		height: 50px;
-	}
-}
 
 /* CARTEL ANIMACION */
 
@@ -299,8 +263,8 @@ h4{
 	justify-content: space-around;
 	img {
 		&:hover {
-			transform: scale(1.5);
-			transition-duration: 1s;
+			transform: scale(1.2);
+			transition-duration: 2s;
 		}
 	}
 }

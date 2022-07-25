@@ -10,34 +10,6 @@ html {
   scroll-behavior: smooth; }
 
 /* IMPORTS TODAS LAS PAGINAS */
-/* NAVBAR */
-nav {
-  font-family: nos;
-  font-size: 18px;
-  box-shadow: 0 7px 4px 0 rgba(0, 0, 0, 0.2);
-  z-index: 1000000000; }
-  nav .li {
-    padding-left: 70px;
-    padding-right: 70px; }
-    nav .li img {
-      width: 150px;
-      height: 60px;
-      margin-left: 25px; }
-
-/* RESPONSIVE NAVBAR */
-@media (max-width: 1156px) {
-  .navbar-nav > li {
-    padding-left: 40px;
-    padding-right: 40px; } }
-
-@media (max-width: 284px) {
-  .foto__logo {
-    width: 150px;
-    height: 60px;
-    margin-left: 1px;
-    width: 120px;
-    height: 50px; } }
-
 /* CARTEL ANIMACION */
 .marquee {
   margin: 0 auto;
@@ -244,8 +216,8 @@ h4 {
   display: flex;
   justify-content: space-around; }
   .fotos__promociones img:hover {
-    transform: scale(1.5);
-    transition-duration: 1s; }
+    transform: scale(1.2);
+    transition-duration: 2s; }
 
 /* NUESTRAS SUCURSALES */
 .nuestras__sucursales {
@@ -681,6 +653,35 @@ h3 {
   .titulo__principal {
     padding-top: 120px;
     text-align: center; } }
+
+/* NAVBAR */
+nav {
+  font-family: nos;
+  font-size: 18px;
+  box-shadow: 0 7px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1000000000;
+  background-color: white; }
+  nav .li {
+    padding-left: 70px;
+    padding-right: 70px; }
+    nav .li img {
+      width: 150px;
+      height: 60px;
+      margin-left: 25px; }
+
+/* RESPONSIVE NAVBAR */
+@media (max-width: 1156px) {
+  .navbar-nav > li {
+    padding-left: 40px;
+    padding-right: 40px; } }
+
+@media (max-width: 284px) {
+  .foto__logo {
+    width: 150px;
+    height: 60px;
+    margin-left: 1px;
+    width: 120px;
+    height: 50px; } }
 
 /* FOOTER */
 footer {
