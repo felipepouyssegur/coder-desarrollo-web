@@ -6,6 +6,14 @@
   box-sizing: border-box;
   /* evitamos que las box cambien de tamaño */ }
 
+/* html,body {   
+    margin:0;
+    padding:0;
+}
+ */
+body {
+  overflow-x: hidden; }
+
 html {
   scroll-behavior: smooth; }
 
