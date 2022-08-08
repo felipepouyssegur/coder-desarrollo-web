@@ -10,8 +10,7 @@
     margin:0;
     padding:0;
 }
- */
- 
+  */
 body { overflow-x: hidden; }  
 
 html{
@@ -94,23 +93,16 @@ footer {
 		line-height: 3rem;
 		color: yellow;
 	}
-	p {
-		max-width: 500px;
-		margin: 10px auto;
-		line-height: 28px;
-		font-size: 14px;
-		color: #cacdd2;
-	}
+
 }
 .socials {
 	list-style: none;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-left: 2px;
 	width: 100%;
 	li {
-		margin: 0 10px;
+		margin: 0 0px;
 	}
 	a {
 		text-decoration: none;
@@ -143,3 +135,8 @@ footer {
 }
 
 
+@media (max-width: 830px) {
+	.socials li{
+		font-size: 14px;
+	}
+}

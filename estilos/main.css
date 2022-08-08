@@ -10,7 +10,7 @@
     margin:0;
     padding:0;
 }
- */
+  */
 body {
   overflow-x: hidden; }
 
@@ -391,14 +391,14 @@ h4 {
     width: 400px;
     height: 250px; } }
 
-@media screen and (max-width: 415px) {
-  .fondo__video__principal {
-    display: none; } }
-
 @media screen and (max-width: 487px) {
   .consejos__extra {
     height: 900px;
     font-size: 15px; } }
+
+@media screen and (max-width: 415px) {
+  .fondo__video__principal {
+    display: none; } }
 
 @media screen and (max-width: 375px) {
   .titulo__procedimiento__y__tips {
@@ -766,12 +766,6 @@ footer {
     text-transform: capitalize;
     line-height: 3rem;
     color: yellow; }
-  .footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-    color: #cacdd2; }
 
 .socials {
   list-style: none;
@@ -806,3 +800,8 @@ footer {
       color: yellow;
       font-size: 16px;
       text-decoration: none; }
+
+@media (max-width: 830px) {
+  .socials li {
+    font-size: 14px;
+    margin-right: 10px; } }

@@ -66,15 +66,16 @@
 		height: 250px;
 	}
 }
-@media screen and (max-width: 415px) {
-	.fondo__video__principal {
-		display: none;
-	}
-}
+
 @media screen and (max-width: 487px) {
 	.consejos__extra {
 		height: 900px;
 		font-size: 15px;
+	}
+}
+@media screen and (max-width: 415px) {
+	.fondo__video__principal {
+		display: none;
 	}
 }
 @media screen and (max-width: 375px) {
