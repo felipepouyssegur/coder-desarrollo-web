@@ -6,11 +6,10 @@
   box-sizing: border-box;
   /* evitamos que las box cambien de tamaño */ }
 
-/* html,body {   
-    margin:0;
-    padding:0;
-}
-  */
+html, body {
+  margin: 0;
+  padding: 0; }
+
 body {
   overflow-x: hidden; }
 
@@ -306,7 +305,7 @@ h4 {
       font-size: 30px; }
     .burger__del__mes img {
       height: 300px;
-      width: 400px;
+      width: 350px;
       margin-top: 45px;
       margin-left: 1px; }
     .burger__del__mes p {
@@ -384,6 +383,10 @@ h4 {
     margin-top: 25px; }
   .fondo__video__principal iframe {
     text-align: center; }
+
+.giphy-embed {
+  position: absolute;
+  margin-left: 1000px; }
 
 /* RESPONSIVE RECETAS */
 @media screen and (max-width: 600px) {
@@ -797,10 +800,10 @@ nav {
   nav .li {
     padding-left: 70px;
     padding-right: 70px; }
-    nav .li img {
-      width: 150px;
-      height: 60px;
-      margin-left: 25px; }
+  nav img {
+    width: 150px;
+    height: 60px;
+    margin-left: 25px; }
 
 /* RESPONSIVE NAVBAR */
 @media (max-width: 1156px) {
