@@ -104,6 +104,9 @@ footer {
 	align-items: center;
 	justify-content: center;
 	width: 99%;
+	li{
+		margin-right: 20px;
+	}
 	a {
 		text-decoration: none;
 		color: #fff;
@@ -138,5 +141,13 @@ footer {
 @media (max-width: 830px) {
 	.socials li{
 		font-size: 14px;
+	}
+}
+
+@media (max-width: 630px) {
+	.socials{
+		display: flex;
+		flex-direction: column;
+		line-height: 3rem;
 	}
 }
