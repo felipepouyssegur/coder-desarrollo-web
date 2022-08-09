@@ -362,7 +362,8 @@ h4 {
     padding-left: 15px;
     padding-top: 20px;
     font-family: sans-serif;
-    line-height: 150%; }
+    line-height: 150%;
+    font-family: nos; }
   .procedimiento__y__tips p {
     padding-top: 30px; }
 
@@ -384,7 +385,8 @@ h4 {
     padding-left: 15px;
     padding-top: 20px;
     background-color: #A2D6F9;
-    border-style: none; }
+    border-style: none;
+    font-family: nos; }
 
 .fondo__video__principal {
   background-color: #DB7F67;
@@ -453,7 +455,8 @@ h4 {
   font-style: nos;
   font-family: nos;
   text-align: center;
-  padding-top: 10px; }
+  padding-top: 10px;
+  color: #e3732d; }
 
 .menu-group {
   display: grid;
@@ -540,7 +543,7 @@ a {
     text-align: center;
     padding-top: 20px;
     font-weight: 900;
-    padding-bottom: 24px; }
+    padding-bottom: 2px; }
 
 .nombre__y__apellido {
   text-align: center;
